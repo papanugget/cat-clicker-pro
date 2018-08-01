@@ -28,7 +28,9 @@
 - Or you can just [click here](https://papanugget.github.io/cat-clicker-pro/dist/)
 
 ### Tech used
-- HTML5, CSS3, JavaScript
+- HTML5
+- CSS3
+- JavaScript using the MVC pattern / separation of concerns
 - Gulp, Node.js
 - /src files have full comments
 - /dist files have been minified
