@@ -30,3 +30,5 @@
 ### Tech used
 - HTML5, CSS3, JavaScript
 - Gulp, Node.js
+- /src files have full comments
+- /dist files have been minified
