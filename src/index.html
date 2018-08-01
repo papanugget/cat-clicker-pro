@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cat Clicker Pro</title>
+</head>
+<body>
+    <h1>Cat Clicker Pro!</h1>
+    <div class="cats">
+        <ul id="catList">
+            <li class="catButton">test</li>
+        </ul>
+        <div id="catDisplay">
+            
+        </div>
+    </div>
+    <div class="container">
+        <button type="button" value="admin" id="adminBtn">Admin Area</button>
+        <form id="adminForm" class="hidden">
+            <label for="catName">Cat Name</label>
+            <input type="text" id="catName" name="catName">
+            <label for="catURL">URL</label>
+            <input type="text" id="catURL" name="catURL" >
+            <label for="catClicks">Number of Clicks</label>
+            <input type="number" id="catClicks" name="catClicks" min="0">
+            <button type="cancel" value="cancel" id="cancelBtn">Cancel</button>
+            <button type="submit" value="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+    <script src="./js/model.js"></script>
+    <script src="./js/view.js"></script>
+    <script src="./js/controller.js"></script>
+</body>
+</html>
